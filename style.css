@@ -1,0 +1,387 @@
+body{
+    margin:0px;
+}
+header{
+    background-color:#ed474c;
+    padding-top: 2px; 
+}
+nav{
+    background-color:#4c4c4c;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width:10%;
+    height:10%;
+    margin: 5px 5px;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding:3px;
+    color: #aaaaaa;
+    font-weight: bold;
+    margin-right:10px;
+
+}
+#join{
+    background-image: url(images/floral.png);
+    background-color:#f28c97;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+#join h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+#join p{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 2px solid rgb(54, 54, 54);
+    border-bottom: 2px solid rgb(54, 54, 54);
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 300px;
+    text-align: center;
+    
+    
+}
+#join button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border:none;
+    background-color: black;
+    color:#f28c97;
+    margin-bottom: 10px;
+}
+#services{
+    background-image: url(images/floral.png);
+    background-color:#efece7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:1px;
+    padding-bottom: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#icon{ 
+    display: flex;
+    flex-direction: row;
+} 
+#inn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+#inn i{
+    font-size: 80px;
+}
+#inn p{
+    margin: 0px 80px;
+    text-align: center;
+}
+#inn i:hover{
+    color:rgb(255, 11, 11);
+}
+
+#Portfolio{
+    background-image: url(images/floral.png);
+    background-color:#ddceb4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+#Portfolio  p{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 2px solid rgb(54, 54, 54);
+    border-bottom: 2px solid rgb(54, 54, 54);
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;  
+    
+}
+#Portfolio #figure{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+#figure img{
+    width: 100%;
+    height:100%;
+    border-radius: 5px;
+}
+#figure figure{
+    position: relative;
+    border-radius: 5px; 
+}
+#figure figure #overlay{
+    opacity: 0;
+    position: absolute;
+    bottom: 25%;
+    left:35%;
+}
+#overlay h2{
+    font-family: forte;
+    color: white;
+    font-size: 30px;
+    margin-top: auto;
+}
+#overlay button{
+    font-size: 20px;
+    color:white;
+    background-color: transparent;
+    border-radius:100px;
+    border: 1px solid white;
+    margin:auto;
+    padding:3px 5px;
+    transition:all 1s ease; 
+}
+#figure figure:hover{
+    background-color:black;
+}
+#figure figure:hover img{
+    opacity:0.2;
+}
+#figure figure:hover #overlay{
+    opacity: 1;
+}
+#overlay button:hover{
+    font-size: 20px;
+    color:black;
+    background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Contact{
+    background-image: url(images/floral.png);
+    background-color:#afc7c6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black; 
+}
+#Contact #btn-cont button{
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0);
+    padding: 10px 10px;
+    margin: 5px;
+}
+#btn-cont button i{
+    font-size: 25px;
+    
+}
+#btn-cont button:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+#btn-cont button:hover i{
+    font-size: 25px;
+    color:rgb(241, 241, 104);
+}
+#footer{
+    display: flex;
+    justify-content:center;
+    background-color: #212121;
+    color: white;
+   
+}
+#footer:hover i{
+    color:red;
+}
+h3
+{
+font-family: forte;
+font-size: 40px;
+}
+
+@media all and (max-width:768px){
+
+    #join h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    #join p{
+        font-family: Arial, Helvetica, sans-serif;
+        border-top: 2px solid rgb(54, 54, 54);
+        border-bottom: 2px solid rgb(54, 54, 54);
+        padding: 2%;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 50px;
+        text-align: center;
+        
+        
+    }
+    #services{
+        background-image: url(images/floral.png);
+        background-color:#efece7;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+    }
+    #icon{ 
+         display: flex;
+         flex-direction: column;
+        }
+    #icon i{
+        align-self: center;
+    } 
+    #icon p{
+        align-self: center;
+       
+    } 
+        #Portfolio{
+            background-image: url(images/floral.png);
+            background-color:#ddceb4;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* padding:1px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: black;
+        }
+        #Portfolio  p{
+            font-family: Arial, Helvetica, sans-serif;
+            border-top: 2px solid rgb(54, 54, 54);
+            border-bottom: 2px solid rgb(54, 54, 54);
+            padding: 2%;
+            font-size: 20px;
+            font-weight: bold;  
+            margin: 10px 15px;
+        text-align: center;
+        }
+        #Portfolio #figure{
+            display: grid;
+            grid-template-columns: auto auto ;
+            grid-template-rows: auto auto auto;
+            }
+            
+            #figure img{
+            width: 100%;
+            height:100%;
+            border-radius: 4px;
+            }
+ } 
+ @media all and (max-width:320px){
+    #Portfolio #figure{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-rows: auto auto auto auto auto auto;
+        }
+        
+        #figure img{
+        width: 100%;
+        height:100%;
+        border-radius: 4px;
+        }    
+ }
