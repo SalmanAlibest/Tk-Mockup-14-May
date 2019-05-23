@@ -9,10 +9,10 @@ nav{
     background-color:#4c4c4c;
     display: flex;
     justify-content: space-between;
-}
+    }
 nav img{
-    width:10%;
-    height:10%;
+    width:7%;
+    height:7%;
     margin: 5px 5px;
 }
 nav ul li{
@@ -22,6 +22,7 @@ nav ul li{
     color: #aaaaaa;
     font-weight: bold;
     margin-right:10px;
+    font-size: 20px;
 
 }
 #join{
@@ -190,7 +191,7 @@ nav ul li{
     border-radius: 100%;
     border: 1px solid black;
     background-color: rgba(0,0,0,0);
-    padding: 10px 10px;
+    padding: 15px 15px;
     margin: 5px;
 }
 #btn-cont button i{
